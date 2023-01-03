@@ -1,0 +1,48 @@
+/*body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}*/
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#drum-machine {
+  background-color: brown;
+  padding: 2em;
+  border-radius: 5px;
+}
+
+#display {
+  text-align: center;
+  background-color: #fff;
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  padding: 0.3em;
+}
+
+.drum-pads {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.drum-pad {
+  border: 1px solid #242424;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin: 0.1em;
+  border-radius: 5px;
+}
+
+.drum-pad:hover, .drum-pad:focus {
+  opacity: 0.4;
+}
